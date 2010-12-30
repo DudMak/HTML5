@@ -1,0 +1,15 @@
+body {
+	padding:0;
+	margin:0;
+	width:100%;
+	height:100%;
+}
+
+#header_top{
+	height:10%;
+	width:100%;
+	background: red;  /*для старых, не поддерживающих CSS3 браузеров*/   
+	/*background: -moz-linear-gradient(top, #4da1e8, #3c6b93);*/   
+	background: -webkit-gradient(linear, 0 0, 0 80%, from(#4da1e8), to(#3c6b93));  
+	border-top: 1px solid white;
+}
