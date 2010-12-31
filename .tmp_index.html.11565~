@@ -9,20 +9,11 @@
 	<!-- total header  -->
 		<header>
 			<div id="header_top">
-				<h2><b>Burst</b> Reading</h2>
+				<div id="see_info"><h3>See Waters Group 1 Info</h3></div>
 				<div id="photo">
 					<img src="" alt="img1">
-					<img src="" alt="img2">
-					<img src="" alt="img3">
-					<img src="" alt="img4">
-					<img src="" alt="img5">
-					<img src="" alt="img6">
 				</div>
-				
-				<div id="see_info"><h3>See Waters Group 1 Info</h3></div>
-				
 			</div>
-			
 		</header>
 	<!-- navigation  -->	
 		<nav>

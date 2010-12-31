@@ -3,13 +3,55 @@ body {
 	margin:0;
 	width:100%;
 	height:100%;
+	font-family:"Arial, Helvetica, sans-serif";
 }
 
 #header_top{
 	height:10%;
 	width:100%;
-	background: red;  /*для старых, не поддерживающих CSS3 браузеров*/   
+	color:#fff;
+	background: white;  /*для старых, не поддерживающих CSS3 браузеров*/   
 	/*background: -moz-linear-gradient(top, #4da1e8, #3c6b93);*/   
 	background: -webkit-gradient(linear, 0 0, 0 80%, from(#4da1e8), to(#3c6b93));  
 	border-top: 1px solid white;
 }
+
+#header_top h2{
+	position:absolute;
+	margin-left:40%;
+	width:30%;
+}
+#header_top #see_info{
+	width:30%;
+}
+
+#header_top #see_info h3{
+	line-height:25px;
+	width:140px;
+	color: white;
+	font-family: Arial;
+	font-size:11px;
+	padding-left:20px;
+	margin-left:10px;
+	border:1px inset #4da1e8;
+	-webkit-border-radius: 5px;
+}
+
+#header_top #photo{
+	zzposition:relative;
+	margin:5px 10px 5px 0;
+	float:right;
+	zzwidth:30%;
+}
+
+#header_top #photo img{
+	width:35px;
+	height:40px;
+	zzborder:1px outset #b8a37a;
+	-webkit-border-radius: 7px;	
+}
+
+
+
+
+
